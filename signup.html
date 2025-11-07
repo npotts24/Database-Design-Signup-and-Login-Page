@@ -17,16 +17,21 @@
             <form action="signup.php" method="POST" class="signup-form">
                 <div class="form-group">
                     <input type="text" name="firstname" placeholder="First Name" required>
+                    <span class = "error-message" id="firstnameError"></span> <!--if the first name has any numbers or special characters in it besides '-'-->
                  <div class="form-group">
                     <input type="text" name="lastname" placeholder="Last Name" required>  
+                    <span class = "error-message" id="lastnameError"></span> <!--if the lastname has numbers in it-->
                 <div class="form-group">
                     <input type="text" name="username" placeholder="Username" required>
+                    <span class = "error-message" id="usernameError"></span> <!--if the username is not found in the database, or already has been made-->
                 </div>
                 <div class="form-group">
                     <input type="email" name="email" placeholder="Email Address" required>
+                    <span class = "error-message" id="emailError"></span> <!-- if the email address in invalid, or already in the database-->
                 </div>
                 <div class="form-group">
                     <input type="password" name="password" placeholder="Password" required>
+                    <span class = "error-message" id="passwordError"></span> <!--if the password is invalid? not enough characters, not strong, etc??-->
                 </div>
                 <div class="form-group">
                     <button type="submit" class="signup-button">Create Account</button>
