@@ -39,7 +39,10 @@ h1 {
 }
 
 body {
-  background-image: linear-gradient(#F800A6,#A202E9,#0901FF);
+  background-image: linear-gradient( 
+    rgba(248, 0, 166, 0.7),
+    rgba(162, 2, 233, 0.7),
+    rgba(9, 1, 255, 0.7));
   min-height: 100vh;
   margin: 0;
   padding: 0;
