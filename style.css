@@ -1,9 +1,8 @@
-
-
-
-
-
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 body {
     background-image: linear-gradient(F800A6,A202E9,0901FF);
