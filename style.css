@@ -207,7 +207,21 @@ body {
   text-decoration: underline;
 }
 
-
+.login-button {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(45deg, 
+    rgba(248, 0, 166, 0.8),
+    rgba(162, 2, 233, 0.8));
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
 
 
 
