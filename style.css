@@ -92,6 +92,8 @@ body {
   font-family: 'Arial', sans-serif;
   overflow-y: auto;
   scroll-behavior: smooth;
+  position: relative;
+  gap: 20px;
 }
 
 /* Custom scrollbar styling */
@@ -207,6 +209,29 @@ body {
   text-decoration: underline;
 }
 
+/*.footer {
+  background-color: white;
+  width: 100%;
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+.footer ul {
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+*/
+/* Style specifically for the header navigation */
+/*body > ul:last-of-type {
+  margin-bottom: 20px;
+}
+*/
+
+
+
+
 .login-button {
   width: 100%;
   padding: 12px 20px;
@@ -223,9 +248,6 @@ body {
   margin-top: 10px;
 }
 
-.footer{
-    background-color: white;
-    
 
 
 
@@ -234,7 +256,9 @@ body {
 
 
 
-}
+
+
+
 
 
 
