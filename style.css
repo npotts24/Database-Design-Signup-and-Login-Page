@@ -1,26 +1,41 @@
+
 ul {
-    ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #f3edf7;
 }
 
 ul li {
   float: left;
+  border-right: 1px solid #bbbbbb;
+}
+
+ul li:last-child {
+  border-right: none
 }
 
 ul li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: grey
+}
+
+h1{
+    color: black;
+    font-family: Crimson Text;
+    font-size: 64px ;
+    
+
+
+
 
 }
 
@@ -28,6 +43,7 @@ body {
     background-image: linear-gradient(#F800A6,#A202E9,#0901FF);
     justify-content: center;
     align-items: center;
+
 
 
 
