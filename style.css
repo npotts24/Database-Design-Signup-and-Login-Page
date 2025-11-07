@@ -41,9 +41,36 @@ ul li a:hover {
 
 h1 {
   text-align: center;
-  color: black;
-  font-family: Crimson Text;
+  color: white;
+  font-family: 'Crimson Text', serif;
   font-size: 64px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  animation: fadeInDown 1.2s ease-out, glowPulse 3s infinite;
+  margin-bottom: 30px;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes glowPulse {
+  0% {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5),
+                 0 0 30px rgba(248, 0, 166, 0.3);
+  }
+  100% {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
 }
 
 body {
