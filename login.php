@@ -4,7 +4,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "root"; // Default MAMP MySQL password
-$dbname = "user_registration";
+$dbname = "midterm_user_registration";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
