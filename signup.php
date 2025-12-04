@@ -5,7 +5,7 @@ $firstname = "root";
 $lastname = "root";
 $username = "root";
 $password = "root";
-$dbname = "midterm_user_registration"
+$dbname = "Users";
 // Create Connection
 $conn = new mysqli($servername, $firstname, $lastname, $username, $password, $dbname);
 // Check Connection
