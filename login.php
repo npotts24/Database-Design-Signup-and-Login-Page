@@ -1,6 +1,6 @@
 <?php
 //include password hashing and input validation
-<?php
+
 $servername = "localhost";
 $username = "root";
 $password = "root"; // Default MAMP MySQL password
